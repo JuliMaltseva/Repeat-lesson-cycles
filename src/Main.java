@@ -129,7 +129,7 @@ public class Main {
             n++;
             System.out.print(n + " ");
         }
-        System.out.println("");
+        System.out.println();
 
         for (int m = 10; m >= 1; m--) {
             System.out.print(m + " ");
