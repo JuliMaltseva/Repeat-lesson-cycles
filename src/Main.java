@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class Main {
     public static void main(String[] args) {
 //видеоурок
@@ -196,7 +198,7 @@ public class Main {
 //Задача 3.1
         System.out.println("Задача 3.1");
         int cometYear = 0;
-        int thisYear = 2022;
+        int thisYear = LocalDate.now().getYear();
         int yearsAgo = thisYear - 200;
         int yearsAhead = thisYear + 100;
         int cometPeriodicity = 79;
